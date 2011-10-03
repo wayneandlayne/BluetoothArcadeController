@@ -1,0 +1,638 @@
+# EESchema Netlist Version 1.1 created  Tue 30 Aug 2011 10:15:44 AM EDT
+(
+ ( /4DF80EDB SM1206-SS C1 10u
+  ( 1 /5V )
+  ( 2 /GND )
+ )
+ ( /4DECD6ED SM1206-SS C2 10u
+  ( 1 /3V3G )
+  ( 2 /GND )
+ )
+ ( /4DFABD3D SM0805-SS C3 100n
+  ( 1 /WT12VCC )
+  ( 2 /GND )
+ )
+ ( /4DFABD40 SM0805-SS C4 10p
+  ( 1 /WT12VCC )
+  ( 2 /GND )
+ )
+ ( /4E5CC9AA SM0805-SS-POL D1 LED
+  ( 1 N-000102 )
+  ( 2 /GND )
+ )
+ ( /4E5C491B SM0805-SS-POL D2 LED
+  ( 1 N-000099 )
+  ( 2 /GND )
+ )
+ ( /4E5CC9C9 SM0805-SS-POL D3 LED
+  ( 1 N-000097 )
+  ( 2 /GND )
+ )
+ ( /4E5CC9CC SM0805-SS-POL D4 LED
+  ( 1 N-000098 )
+  ( 2 /GND )
+ )
+ ( /4DFABD23 SM0805-SS L1 10_nH
+  ( 1 /3V3G )
+  ( 2 /WT12VCC )
+ )
+ ( /4E5B81BF 1pin40mil P1 CONN_1
+  ( 1 /AD8 )
+ )
+ ( /4E5B81BD 1pin40mil P2 CONN_1
+  ( 1 /AD9 )
+ )
+ ( /4E5B81BC 1pin40mil P3 CONN_1
+  ( 1 /AD10 )
+ )
+ ( /4E5B81BE 1pin40mil P4 CONN_1
+  ( 1 /AD11 )
+ )
+ ( /4E5B81BA 1pin40mil P5 CONN_1
+  ( 1 /AD12 )
+ )
+ ( /4E5B81B9 1pin40mil P6 CONN_1
+  ( 1 /AD13 )
+ )
+ ( /4E5B81BB 1pin40mil P7 CONN_1
+  ( 1 /AD14 )
+ )
+ ( /4E5B81B8 1pin40mil P8 CONN_1
+  ( 1 /AD15 )
+ )
+ ( /4E5B81B1 1pin40mil P9 CONN_1
+  ( 1 /P52 )
+ )
+ ( /4E5B81B3 1pin40mil P10 CONN_1
+  ( 1 /P51 )
+ )
+ ( /4E5B81B0 1pin40mil P11 CONN_1
+  ( 1 /P50 )
+ )
+ ( /4E5B81B5 1pin40mil P12 CONN_1
+  ( 1 /P49 )
+ )
+ ( /4E5B81B6 1pin40mil P13 CONN_1
+  ( 1 /P48 )
+ )
+ ( /4E5B81B4 1pin40mil P14 CONN_1
+  ( 1 /P47 )
+ )
+ ( /4E5B81B7 1pin40mil P15 CONN_1
+  ( 1 /P46 )
+ )
+ ( /4E5B81A6 1pin40mil P16 CONN_1
+  ( 1 /P45 )
+ )
+ ( /4E5B81A7 1pin40mil P17 CONN_1
+  ( 1 /P44 )
+ )
+ ( /4E5B81A5 1pin40mil P18 CONN_1
+  ( 1 /P43 )
+ )
+ ( /4E5B81A8 1pin40mil P19 CONN_1
+  ( 1 /P42 )
+ )
+ ( /4E5B81A3 1pin40mil P20 CONN_1
+  ( 1 /P41 )
+ )
+ ( /4E5B81A2 1pin40mil P21 CONN_1
+  ( 1 /P40 )
+ )
+ ( /4E5B81A4 1pin40mil P22 CONN_1
+  ( 1 /P39 )
+ )
+ ( /4E5B81A1 1pin40mil P23 CONN_1
+  ( 1 /P38 )
+ )
+ ( /4E5B8143 1pin40mil P24 CONN_1
+  ( 1 /P12 )
+ )
+ ( /4E5B814E 1pin40mil P25 CONN_1
+  ( 1 /P11 )
+ )
+ ( /4E5B8152 1pin40mil P26 CONN_1
+  ( 1 /P10 )
+ )
+ ( /4E5B8151 1pin40mil P27 CONN_1
+  ( 1 /P9 )
+ )
+ ( /4E5B8153 1pin40mil P28 CONN_1
+  ( 1 /P8 )
+ )
+ ( /4E5B8159 1pin40mil P29 CONN_1
+  ( 1 /P7 )
+ )
+ ( /4E5B8158 1pin40mil P30 CONN_1
+  ( 1 /P6 )
+ )
+ ( /4E5B8156 1pin40mil P31 CONN_1
+  ( 1 /P5 )
+ )
+ ( /4E5B8157 1pin40mil P32 CONN_1
+  ( 1 /P4 )
+ )
+ ( /4E5B8155 1pin40mil P33 CONN_1
+  ( 1 /P3 )
+ )
+ ( /4E5B815B 1pin40mil P34 CONN_1
+  ( 1 /P2 )
+ )
+ ( /4E5B8180 1pin40mil P35 CONN_1
+  ( 1 /P14 )
+ )
+ ( /4E5B8181 1pin40mil P36 CONN_1
+  ( 1 /P15 )
+ )
+ ( /4E5B8161 1pin40mil P37 CONN_1
+  ( 1 /P16 )
+ )
+ ( /4E5B8162 1pin40mil P38 CONN_1
+  ( 1 /P17 )
+ )
+ ( /4E5B8165 1pin40mil P39 CONN_1
+  ( 1 /P20 )
+ )
+ ( /4E5B8160 1pin40mil P40 CONN_1
+  ( 1 /P21 )
+ )
+ ( /4E5B8183 1pin40mil P41 CONN_1
+  ( 1 /P22 )
+ )
+ ( /4E5B8182 1pin40mil P42 CONN_1
+  ( 1 /P23 )
+ )
+ ( /4E5B8184 1pin40mil P43 CONN_1
+  ( 1 /P24 )
+ )
+ ( /4E5B817F 1pin40mil P44 CONN_1
+  ( 1 /P25 )
+ )
+ ( /4E5B8188 1pin40mil P45 CONN_1
+  ( 1 /P26 )
+ )
+ ( /4E5B8189 1pin40mil P46 CONN_1
+  ( 1 /P27 )
+ )
+ ( /4E5B8187 1pin40mil P47 CONN_1
+  ( 1 /P28 )
+ )
+ ( /4E5B818A 1pin40mil P48 CONN_1
+  ( 1 /P29 )
+ )
+ ( /4E5B8190 1pin40mil P49 CONN_1
+  ( 1 /P30 )
+ )
+ ( /4E5B8191 1pin40mil P50 CONN_1
+  ( 1 /P31 )
+ )
+ ( /4E5B818F 1pin40mil P51 CONN_1
+  ( 1 /P32 )
+ )
+ ( /4E5B8192 1pin40mil P52 CONN_1
+  ( 1 /P33 )
+ )
+ ( /4E5B818D 1pin40mil P53 CONN_1
+  ( 1 /P34 )
+ )
+ ( /4E5B818C 1pin40mil P54 CONN_1
+  ( 1 /P35 )
+ )
+ ( /4E5B818E 1pin40mil P55 CONN_1
+  ( 1 /P36 )
+ )
+ ( /4E5B818B 1pin40mil P56 CONN_1
+  ( 1 /P37 )
+ )
+ ( /4DFCE2F0 1pin20mil P57 CONN_1
+  ( 1 N-000031 )
+ )
+ ( /4DFCE2F1 1pin20mil P58 CONN_1
+  ( 1 N-000032 )
+ )
+ ( /4DFCE2F2 1pin20mil P59 CONN_1
+  ( 1 /RTS )
+ )
+ ( /4DFCE2D5 1pin20mil P60 CONN_1
+  ( 1 N-000023 )
+ )
+ ( /4DFCE2D4 1pin20mil P61 CONN_1
+  ( 1 N-000029 )
+ )
+ ( /4DFCE2D2 1pin20mil P62 CONN_1
+  ( 1 N-000030 )
+ )
+ ( /4DFCE2D3 1pin20mil P63 CONN_1
+  ( 1 /CTS )
+ )
+ ( /4DFCE2CE 1pin20mil P64 CONN_1
+  ( 1 N-000020 )
+ )
+ ( /4DFCE2CF 1pin20mil P65 CONN_1
+  ( 1 N-000019 )
+ )
+ ( /4DFCE2D1 1pin20mil P66 CONN_1
+  ( 1 N-000025 )
+ )
+ ( /4DFCE2A3 1pin20mil P67 CD
+  ( 1 /AD5 )
+ )
+ ( /4DFCE2A4 1pin20mil P68 CONN_1
+  ( 1 N-000021 )
+ )
+ ( /4DFCE2A7 1pin20mil P69 CONN_1
+  ( 1 N-000024 )
+ )
+ ( /4DFCE2A6 1pin20mil P70 CONN_1
+  ( 1 N-000022 )
+ )
+ ( /4DFCE2AD 1pin20mil P71 CONN_1
+  ( 1 N-000018 )
+ )
+ ( /4DFCE2AA 1pin20mil P72 CONN_1
+  ( 1 N-000017 )
+ )
+ ( /4DFCE2AB 1pin20mil P73 CONN_1
+  ( 1 N-000016 )
+ )
+ ( /4DFCE2AC 1pin20mil P74 ESC
+  ( 1 /WT12ESC )
+ )
+ ( /4DFCF558 WNL_SIL_6 P75 UART
+  ( 1 /CTS )
+  ( 2 /WT12VCC )
+  ( 3 /GND )
+  ( 4 /RX1D )
+  ( 5 /WT12RX )
+  ( 6 /RTS )
+ )
+ ( /4E5C4826 1pin40mil P76 CONN_1
+  ( 1 /AD0 )
+ )
+ ( /4E5C4828 1pin40mil P77 CONN_1
+  ( 1 /AD1 )
+ )
+ ( /4E5C4829 1pin40mil P78 CONN_1
+  ( 1 /AD2 )
+ )
+ ( /4E5C4827 1pin40mil P79 CONN_1
+  ( 1 /AD3 )
+ )
+ ( /4E5C482B 1pin40mil P80 CONN_1
+  ( 1 /AD4 )
+ )
+ ( /4E5C482C 1pin40mil P81 CONN_1
+  ( 1 /AD5 )
+ )
+ ( /4E5C482A 1pin40mil P82 CONN_1
+  ( 1 /AD6 )
+ )
+ ( /4E5C482D 1pin40mil P83 CONN_1
+  ( 1 /AD7 )
+ )
+ ( /4E5CC772 1pin40mil P84 CONN_1
+  ( 1 /P53 )
+ )
+ ( /4E5CC80C 1pin40mil P85 CONN_1
+  ( 1 /GND )
+ )
+ ( /4E5CC812 1pin40mil P86 CONN_1
+  ( 1 /GND )
+ )
+ ( /4E5CD119 1pin40mil P87 CONN_1
+  ( 1 /P13 )
+ )
+ ( /4E5CDB66 1pin40mil P88 CONN_1
+  ( 1 /AREF )
+ )
+ ( /4E5CDB63 1pin40mil P89 CONN_1
+  ( 1 /GND )
+ )
+ ( /4E5CDEC5 1pin40mil P90 CONN_1
+  ( 1 /RESET )
+ )
+ ( /4E5CDEC3 1pin40mil P91 CONN_1
+  ( 1 /3V3 )
+ )
+ ( /4E5CDEC2 1pin40mil P92 CONN_1
+  ( 1 /5V )
+ )
+ ( /4E5CDEC4 1pin40mil P93 CONN_1
+  ( 1 /GND )
+ )
+ ( /4E5CDEC1 1pin40mil P94 CONN_1
+  ( 1 /GND )
+ )
+ ( /4E5CDEC6 1pin40mil P95 CONN_1
+  ( 1 /V_IN )
+ )
+ ( /4E5CF063 1pin120mil P96 CONN_1
+  ( 1 /GND )
+ )
+ ( /4E5CF064 1pin120mil P97 CONN_1
+  ( 1 /GND )
+ )
+ ( /4E5CF065 1pin120mil P98 CONN_1
+  ( 1 /GND )
+ )
+ ( /4E5CF067 1pin120mil P99 CONN_1
+  ( 1 /GND )
+ )
+ ( /4E5CF066 1pin120mil P100 CONN_1
+  ( 1 /GND )
+ )
+ ( /4DFCC97A SM0805-SS R1 10k
+  ( 1 /TX1D )
+  ( 2 /WT12RX )
+ )
+ ( /4DFCC97E SM0805-SS R2 10k
+  ( 1 /WT12RX )
+  ( 2 /GND )
+ )
+ ( /4DFCCEA6 SM0805-SS R3 10k
+  ( 1 /AD3 )
+  ( 2 /WT12RES )
+ )
+ ( /4DFCCEA5 SM0805-SS R4 10k
+  ( 1 /WT12RES )
+  ( 2 /GND )
+ )
+ ( /4E5B8B0B SM0805-SS R5 10k
+  ( 1 /AD4 )
+  ( 2 /WT12ESC )
+ )
+ ( /4E5B8B0C SM0805-SS R6 10k
+  ( 1 /WT12ESC )
+  ( 2 /GND )
+ )
+ ( /4E5CC9A9 SM0805-SS R7 R
+  ( 1 N-000102 )
+  ( 2 /AD6 )
+ )
+ ( /4E5C491C SM0805-SS R8 R
+  ( 1 N-000099 )
+  ( 2 /AD7 )
+ )
+ ( /4E5CC9CA SM0805-SS R9 R
+  ( 1 N-000097 )
+  ( 2 /AD7 )
+ )
+ ( /4E5CC9CB SM0805-SS R10 R
+  ( 1 N-000098 )
+  ( 2 /AD6 )
+ )
+ ( /4DFB8FCE WNL_OMRON_6MM_PRETTY SW1 PAIR
+  ( 1 /P13 )
+  ( 2 /GND )
+ )
+ ( /4DFB8FF5 WNL_OMRON_6MM_PRETTY SW2 RESET
+  ( 1 /RESET )
+  ( 2 /GND )
+ )
+ ( /4DECD81B sf-bluegiga-WT12-A U1 WT12-A-VISUAL
+  ( GND1 /GND )
+  ( GND2 /GND )
+  ( GND3 /GND )
+  ( GND4 /GND )
+  ( MISO N-000024 )
+  ( MOSI N-000021 )
+  ( NC ? )
+  ( NCSB N-000018 )
+  ( NCTS /CTS )
+  ( NRTS /RTS )
+  ( PCMC N-000019 )
+  ( PCMI N-000020 )
+  ( PCMO N-000023 )
+  ( PCMS N-000025 )
+  ( PIO2 N-000031 )
+  ( PIO3 N-000032 )
+  ( PIO4 /WT12ESC )
+  ( PIO5 /AD5 )
+  ( PIO6 N-000016 )
+  ( PIO7 N-000017 )
+  ( RES /WT12RES )
+  ( RF ? )
+  ( RFGN /GND )
+  ( RXD /WT12RX )
+  ( SCLK N-000022 )
+  ( TXD /RX1D )
+  ( USB+ N-000029 )
+  ( USB- N-000030 )
+  ( VDD1 /WT12VCC )
+  ( VDD2 /WT12VCC )
+ )
+ ( /4DFB4DF2 SOT223 U2 MCP1825S
+  ( 1 /5V )
+  ( 2 /GND )
+  ( 3 /3V3G )
+  ( 4 /GND )
+ )
+ ( /4DFB7A21 ARDUINO_MEGA_2560_SHIELD X1 ARDUINOSHIELDMEGA
+  ( 0 ? )
+  ( 1 ? )
+  ( 2 /P2 )
+  ( 3 /P3 )
+  ( 3V3 /3V3 )
+  ( 4 /P4 )
+  ( 5 /P5 )
+  ( 5V1 /5V )
+  ( 5V2 /5Va )
+  ( 5V3 /5Va )
+  ( 6 /P6 )
+  ( 7 /P7 )
+  ( 8 /P8 )
+  ( 9 /P9 )
+  ( 10 /P10 )
+  ( 11 /P11 )
+  ( 12 /P12 )
+  ( 13 /P13 )
+  ( 14 /P14 )
+  ( 15 /P15 )
+  ( 16 /P16 )
+  ( 17 /P17 )
+  ( 18 /TX1D )
+  ( 19 /RX1D )
+  ( 20 /P20 )
+  ( 21 /P21 )
+  ( 22 /P22 )
+  ( 23 /P23 )
+  ( 24 /P24 )
+  ( 25 /P25 )
+  ( 26 /P26 )
+  ( 27 /P27 )
+  ( 28 /P28 )
+  ( 29 /P29 )
+  ( 30 /P30 )
+  ( 31 /P31 )
+  ( 32 /P32 )
+  ( 33 /P33 )
+  ( 34 /P34 )
+  ( 35 /P35 )
+  ( 36 /P36 )
+  ( 37 /P37 )
+  ( 38 /P38 )
+  ( 39 /P39 )
+  ( 40 /P40 )
+  ( 41 /P41 )
+  ( 42 /P42 )
+  ( 43 /P43 )
+  ( 44 /P44 )
+  ( 45 /P45 )
+  ( 46 /P46 )
+  ( 47 /P47 )
+  ( 48 /P48 )
+  ( 49 /P49 )
+  ( 50 /P50 )
+  ( 51 /P51 )
+  ( 52 /P52 )
+  ( 53 /P53 )
+  ( AD0 /AD0 )
+  ( AD1 /AD1 )
+  ( AD2 /AD2 )
+  ( AD3 /AD3 )
+  ( AD4 /AD4 )
+  ( AD5 /AD5 )
+  ( AD6 /AD6 )
+  ( AD7 /AD7 )
+  ( AD8 /AD8 )
+  ( AD9 /AD9 )
+  ( AD10 /AD10 )
+  ( AD11 /AD11 )
+  ( AD12 /AD12 )
+  ( AD13 /AD13 )
+  ( AD14 /AD14 )
+  ( AD15 /AD15 )
+  ( AREF /AREF )
+  ( GND1 /GND )
+  ( GND2 /GND )
+  ( GND3 /GND )
+  ( GND4 /GND )
+  ( GND5 /GND )
+  ( MISO ? )
+  ( MOSI ? )
+  ( RST1 /RESET )
+  ( RST2 /RESET )
+  ( SCK ? )
+  ( V_IN /V_IN )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}
