@@ -1,7 +1,8 @@
 /*
     Wayne and Layne present:
-    Bluetooth Arcade controller shield, firmware revision 1.01
-    Copyright (c) 2011 Wayne and Layne, LLC
+    Bluetooth Arcade controller shield, firmware revision 1.02
+    Copyright (c) 2012 Wayne and Layne, LLC
+    Updated to work with Arduino 1.0
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -265,12 +266,12 @@ void send_raw_record(void)
     // 0x9f 0x0a 0xa1 0x01 0x00 0x00 0xXX 0xXX 0xXX 0xXX 0xXX 0xXX
     // Where the last six bytes are the HID key codes.
 
-    Serial1.print(0x9f, BYTE);
-    Serial1.print(0x0a, BYTE);
-    Serial1.print(0xa1, BYTE);
-    Serial1.print(0x01, BYTE);
-    Serial1.print(0x00, BYTE);
-    Serial1.print(0x00, BYTE);
+    Serial1.write((byte)0x9f);
+    Serial1.write((byte)0x0a);
+    Serial1.write((byte)0xa1);
+    Serial1.write((byte)0x01);
+    Serial1.write((byte)0x00);
+    Serial1.write((byte)0x00);
 
     char data[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
     for (byte i = 0; i < kp_ix; i++)
@@ -279,17 +280,17 @@ void send_raw_record(void)
     }
 
     // actually send the record
-    Serial1.print(data[0], BYTE);
+    Serial1.write(data[0]);
     Serial.print(data[0], HEX);
-    Serial1.print(data[1], BYTE);
+    Serial1.write(data[1]);
     Serial.print(data[1], HEX);
-    Serial1.print(data[2], BYTE);
+    Serial1.write(data[2]);
     Serial.print(data[2], HEX);
-    Serial1.print(data[3], BYTE);
+    Serial1.write(data[3]);
     Serial.print(data[3], HEX);
-    Serial1.print(data[4], BYTE);
+    Serial1.write(data[4]);
     Serial.print(data[4], HEX);
-    Serial1.print(data[5], BYTE);
+    Serial1.write(data[5]);
     Serial.println(data[5], HEX);
 
     do_the_led_dance();
@@ -312,11 +313,11 @@ void loop(void)
     // WT12) to avoid accidentally messing things up.
     while (Serial1.available() > 0)
     {
-         Serial.print(Serial1.read(), BYTE);
+         Serial.write(Serial1.read());
     }
     while (Serial.available() > 0)
     {
-         Serial1.print(Serial.read(), BYTE);
+         Serial1.write(Serial.read());
     }
 
     // copy the old keypress state to the proper variable
