@@ -159,7 +159,7 @@ void setup()
         byte pin = map_pins[i];
         pinMode(pin, INPUT); // set pin to input
         digitalWrite(pin, HIGH); // turn on pullup resistor
-        debounce[i] == 0; // initialize the debounce array
+        debounce[i] = 0; // initialize the debounce array
     }
 
     // initializes the pins used for the LED outputs
